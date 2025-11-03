@@ -42,6 +42,8 @@ export default defineConfig({
         // additionalData 的值会被注入到每一个 scss 文件的开头
         additionalData: `
           @use "@/styles/element/index.scss" as *;
+          @use "@/styles/var.scss" as *;
+
         `,
       },
     },
